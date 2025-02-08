@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+    <clipPath id="clippath">
+      <circle class="cls-4" cx="15" cy="15" r="15"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-4" x="-2.5" y="-1.5" width="33" height="33"/>
+    </clipPath>
+  </defs>
+  <g id="_图层_1-2" data-name="图层 1">
+    <g class="cls-3">
+      <g class="cls-2">
+        <image id="image0" class="cls-1" width="32" height="32" transform="translate(-2.5 -1.5) scale(1.03)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAiCAYAAADRcLDBAAAACXBIWXMAAArDAAAKwwE0KSSrAAACvklEQVRYhe2XW0gUURjHf9+4ayKrrqlYoUlUJl00ywcrCqnAl7ILSBe0CHoxEInI0FchDLpRDxEUvRRRYDcoKoSo6PLQhQKJQkky03LNS17yNifGadc22d3Rtc0H/zBwzsx3zvnNd775vjNMBonBMJifqf4nizYZPDEF4ZYtqNEpqUjmKkiZj0Q5YWgQ1dKEev8GXjyE3m5L04wvMNOz0bbvQ+Yt9mmientQdy+jqs5Bf98EQtjDkb1lSE4eImJpiGqoQ68ognaXTxvr2xERiVZ+GknL9F6kuQH17hV0toEzDlmSjUxP8DyX5LnItiLU2YogIURD9h/xAlCuZvTzlfDykTeUFoas3YwUlCCRDnN4XCL+XG3p65C8QjQjAN0LfapFLysYBTAsfQhVXYVevgvlakIphf7gpv/5CRQTsfFop24h0yJMgO5O9IM7wNUUmN7wRGwCNH70axZwO2RDoQdgGOLKGWsAhnq6zCuA/G+Hsb85G0cA2ltR1desAYxB/iHSlppJyA3x9B4MDoQWQlLTvfrq7fMJBwgIwawU7379h9BDSEycp610Hdp8Z71/BoHNPtI2IJQeegjV1+Npi802nLpDDkHLX/kgaU7oIVRtjVdflq0JPQSvn6D+yAuSmw/RsWNbITEJsnLAT+n3D9HVgXp8ZwQiyol24Cg4oq0BLMpCq7xEWOlxZGexTzMLBSwB7dhVxBHjuWWUcXXjAurZffjR4W0fZoMFGcj6rcjKXEQz31P1dqPvXj1OCEMZK9BKTyJ2u9dto0zzrRE6vsNAPxigM5OR8IhRU6ivn9GL84KA4LdrSw4jzviApqMA2lvRTxwC4wQWFIQhRzSyaQ+ybgtiIS5UWwuq+jrq9kW/JX18p217OCxcbha4GbORqBgzFvp/oozU/qXePPbX1ZiZNoCm/kXdmoKYPAJ+ASKy6Wuh+TtgAAAAAElFTkSuQmCC"/>
+      </g>
+    </g>
+  </g>
+</svg>
