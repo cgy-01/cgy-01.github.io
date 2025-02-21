@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Smile'; /* 自定义字体的名称，可以自由命名 */
+    src: url('../fonts/SmileySans.ttf') format('truetype'); /* 字体文件路径 */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Smile', Arial, sans-serif; /* 使用自定义字体 */
+}
