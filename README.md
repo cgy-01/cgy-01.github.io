@@ -9,6 +9,7 @@ Here are my latest technical updates and open-source code. Moreover, I also shar
 
 ## Open Sourse Books
 - IDL: [IDL-Tutorial](https://www.gis-dreaz.com/idl-tutorial) (Continuously updating)
+- Blog: [小萌新的随想录](https://www.gis-dreaz.com/my_thinkingbook)
 
 ## Connect
 
