@@ -4,71 +4,198 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guangyuan Chen</title>
-    <link rel="stylesheet" href="css/styles.css"> <!-- 引用本地的styles.css -->
-    <style>
-        body {
-            background-color: #121212; /* 暗色背景 */
-            color: white; /* 白色文字 */
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center; /* 水平居中 */
-            align-items: flex-start; /* 保持顶部对齐 */
-            min-height: 100vh; /* 确保页面高度为满屏 */
-            font-family: 'Verdana', sans-serif; /* 设置正文字体 */
-        }
-        .container {
-            width: 80%;
-            max-width: 1000px;
-            min-height: 100vh; /* 保持内容区域高度为满屏 */
-            padding: 20px;
-            background-color: #1e1e1e; /* 深灰色背景 */
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 阴影效果 */
-            display: flex;
-            flex-direction: column;
-        }
-		h2 {
-			font-style: italic; /* 设置标题字体为斜体 */
-		}
-        p, ul {
-            line-height: 1.6; /* 增加段落行高 */
-            margin: 20px 0;
-        }
-        a {
-            color: #4db8ff; /* 链接颜色 */
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <meta name="description" content="Guangyuan Chen - Remote Sensing Science and Technology, Geospatial Data Science, Google Earth Engine">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="container">
-        <h2>Guangyuan Chen</h2>
-        <p><a href="https://github.com/cgy-01?tab=followers"><img alt="GitHub Followers" src="https://img.shields.io/github/followers/cgy-01?label=Follow%20Me&amp;style=social" /></a>
-        <a href=""><img alt="Visitor Badge" src="https://visitor-badge.laobi.icu/badge?page_id=cgy-01.cgy-01" /></a></p>
-        <p>Hi there 👋<br />
-        I'm an undergraduate student in the Remote Sensing Science and Technology program at the School of Remote Sensing &amp; Geomatics Engineering, Nanjing University of Information Science &amp; Technology (NUIST). I am interested in geospatial data science, and my current research focuses on intelligent remote sensing image analysis and the Google Earth Engine (GEE) cloud platform.<br />
-        Here are my latest technical updates and open-source code. Moreover, I also share my learning journey in other online communities, looking forward to exchanging ideas with you :)</p>
-        <h2>Open Sourse Books</h2>
-        <ul>
-            <li>IDL: <a href="https://www.gis-dreaz.com/idl-tutorial">IDL-Tutorial</a> (Continuously updating)</li>
-            <li>Blog: <a href="https://www.gis-dreaz.com/my_thinkingbook">小萌新的随想录</a> </li>
-        </ul>
-        <h2>Connect</h2>
-        <ul>
-            <li><img src="./svg/csdn.svg" alt="csdn" width="15" height="15"> &nbsp; <a href="https://blog.csdn.net/2301_77168269?type=blog">CSDN: 遥感小萌新</a></li>
-            <li><img src="./svg/zhihu.svg" alt="zhihu"> &nbsp; <a href="https://www.zhihu.com/people/abc-27-98-95">Zhihu: 遥感小萌新</a></li>
-            <li><img src="./svg/github.svg" alt="github"> &nbsp; <a href="https://github.com/cgy-01">Github: cgy-01</a></li>
-            <li><img src="./svg/gmail.svg" alt="gmail"> &nbsp; Mail: parkerchan0001@gmail.com</li>
-            <li><img src="./svg/wechat.svg" alt="wechat"> &nbsp; WeChat Official Accounts:遥感自研室👇👇</li>
-        </ul>
-        <p>&ensp;&ensp;<img src="./svg/WeChat_Official_Accounts.svg" alt="微信公众号" style="width: 310px; height: auto; margin-left: 20px;"></p>
-        <h2>More about me</h2>
-        <p><img alt="Github Stats" src="https://github-readme-stats.vercel.app/api?username=cgy-01&amp;show_icons=true&amp;theme=dark&amp;count_private=true" />
-        <img alt="Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cgy-01&amp;theme=dark&amp;layout=compact" /></p>
+    <!-- Background ambient -->
+    <div class="bg-ambient" aria-hidden="true">
+        <div class="bg-orb"></div>
+        <div class="bg-grid"></div>
     </div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">Guangyuan Chen</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#books">Books</a>
+                <a href="#community">Community</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero" id="hero">
+            <div class="hero-grid">
+                <div class="hero-left">
+                    <p class="hero-eyebrow reveal">Remote Sensing and Geospatial Data Science</p>
+                    <h1 class="hero-headline reveal">
+                        Guangyuan<br>Chen
+                    </h1>
+                    <div class="hero-tags reveal">
+                        <span class="tag">Intelligent Remote Sensing</span>
+                        <span class="tag">Google Earth Engine</span>
+                        <span class="tag">Geospatial Analysis</span>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <p class="hero-intro reveal">
+                        Undergraduate student at the School of Remote Sensing and Geomatics Engineering, NUIST. I explore the intersection of satellite imagery, cloud computing, and geospatial data science to understand our planet from above.
+                    </p>
+                    <div class="hero-links reveal">
+                        <a href="https://github.com/cgy-01" class="hero-link" target="_blank" rel="noopener">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                            GitHub
+                        </a>
+                        <a href="https://blog.csdn.net/2301_77168269?type=blog" class="hero-link" target="_blank" rel="noopener">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2Z"/></svg>
+                            CSDN
+                        </a>
+                        <a href="https://www.zhihu.com/people/abc-27-98-95" class="hero-link" target="_blank" rel="noopener">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+                            Zhihu
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about" id="about">
+            <div class="section-inner">
+                <h2 class="section-heading reveal">About</h2>
+                <div class="about-grid">
+                    <div class="about-text reveal">
+                        <p>
+                            I am an undergraduate student in the <strong>Remote Sensing Science and Technology</strong> program at the School of Remote Sensing and Geomatics Engineering, Nanjing University of Information Science and Technology (NUIST).
+                        </p>
+                        <p>
+                            My interests lie in <strong>geospatial data science</strong>, with current research focused on intelligent remote sensing image analysis and the <strong>Google Earth Engine</strong> (GEE) cloud platform. I build open-source tools and write about what I learn.
+                        </p>
+                        <p>
+                            Here are my latest technical updates and open-source code. I also share my learning journey across online communities. Looking forward to exchanging ideas with you.
+                        </p>
+                    </div>
+                    <div class="about-interests reveal">
+                        <h3 class="about-subhead">Research Interests</h3>
+                        <div class="interest-list">
+                            <span class="interest-tag">Intelligent Remote Sensing Image Analysis</span>
+                            <span class="interest-tag">Google Earth Engine (GEE)</span>
+                            <span class="interest-tag">Geospatial Data Science</span>
+                            <span class="interest-tag">Cloud Computing for EO</span>
+                            <span class="interest-tag">Open Source GIS</span>
+                            <span class="interest-tag">Satellite Imagery</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Books & Projects -->
+        <section class="books" id="books">
+            <div class="section-inner">
+                <h2 class="section-heading reveal">Open Source Books</h2>
+                <div class="books-grid">
+                    <a href="https://www.gis-dreaz.com/idl-tutorial" class="book-card book-card-primary reveal" target="_blank" rel="noopener">
+                        <div class="book-card-content">
+                            <span class="book-badge">Tutorial</span>
+                            <h3 class="book-title">IDL-Tutorial</h3>
+                            <p class="book-desc">Interactive Data Language tutorial for remote sensing applications. Continuously updated with practical examples and workflows.</p>
+                            <span class="book-link">
+                                Explore
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                            </span>
+                        </div>
+                        <div class="book-card-pattern" aria-hidden="true"></div>
+                    </a>
+                    <a href="https://www.gis-dreaz.com/my_thinkingbook" class="book-card book-card-secondary reveal" target="_blank" rel="noopener">
+                        <div class="book-card-content">
+                            <span class="book-badge">Blog</span>
+                            <h3 class="book-title">小萌新的随想录</h3>
+                            <p class="book-desc">Personal thinking book covering remote sensing, programming, and the learning journey of a geospatial science student.</p>
+                            <span class="book-link">
+                                Read
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                            </span>
+                        </div>
+                        <div class="book-card-pattern" aria-hidden="true"></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- GitHub Stats -->
+        <section class="stats" id="community">
+            <div class="section-inner">
+                <h2 class="section-heading reveal">Open Source</h2>
+                <div class="stats-grid reveal">
+                    <div class="stat-card">
+                        <img src="https://github-readme-stats.vercel.app/api?username=cgy-01&show_icons=true&theme=transparent&count_private=true&hide_border=true&title_color=f4f4f5&text_color=a1a1aa&icon_color=2dd4bf&bg_color=111114" alt="GitHub Stats" class="stat-img" loading="lazy">
+                    </div>
+                    <div class="stat-card">
+                        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cgy-01&theme=transparent&layout=compact&hide_border=true&title_color=f4f4f5&text_color=a1a1aa&bg_color=111114" alt="Most Used Languages" class="stat-img" loading="lazy">
+                    </div>
+                </div>
+                <div class="community-links reveal">
+                    <a href="https://github.com/cgy-01" class="community-link" target="_blank" rel="noopener">
+                        <img src="./svg/github.svg" alt="" width="20" height="20" aria-hidden="true">
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://blog.csdn.net/2301_77168269?type=blog" class="community-link" target="_blank" rel="noopener">
+                        <img src="./svg/csdn.svg" alt="" width="20" height="20" aria-hidden="true">
+                        <span>CSDN</span>
+                    </a>
+                    <a href="https://www.zhihu.com/people/abc-27-98-95" class="community-link" target="_blank" rel="noopener">
+                        <img src="./svg/zhihu.svg" alt="" width="20" height="20" aria-hidden="true">
+                        <span>Zhihu</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <p class="footer-text">Guangyuan Chen</p>
+            <p class="footer-sub">School of Remote Sensing and Geomatics Engineering, NUIST</p>
+        </div>
+    </footer>
+
+    <script>
+        /* Scroll reveal via IntersectionObserver - lightweight, no dependencies */
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, {
+            threshold: 0.15,
+            rootMargin: '0px 0px -40px 0px'
+        });
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        /* Nav background on scroll */
+        const nav = document.getElementById('nav');
+        let scrollTicking = false;
+        window.addEventListener('scroll', () => {
+            if (!scrollTicking) {
+                requestAnimationFrame(() => {
+                    if (window.scrollY > 40) {
+                        nav.classList.add('nav-scrolled');
+                    } else {
+                        nav.classList.remove('nav-scrolled');
+                    }
+                    scrollTicking = false;
+                });
+                scrollTicking = true;
+            }
+        }, { passive: true });
+    </script>
 </body>
 </html>
